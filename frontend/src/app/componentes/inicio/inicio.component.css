@@ -1,0 +1,22 @@
+.alinhaTexto{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.fundoExtrato{
+  background-color: rgba(231, 231, 231, 0.336);
+  padding: 25px;
+}
+
+.logo{
+  width: 100px;
+  margin: 25px;
+}
+
+.logoImg{
+  width: 100px;
+}
+
+.header{
+  display: flex;
+}

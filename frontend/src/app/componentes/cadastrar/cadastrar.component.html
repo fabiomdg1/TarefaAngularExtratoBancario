@@ -1,0 +1,28 @@
+<div class="container fundoExtrato">
+  <div class="col">
+    <div class="row header">
+      <img class="logoImg" src="../../../assets/img/logo.gif"/>
+      <h2 class="alinhaTexto">Cadastrar Registro de Extrato Bancário</h2>
+  </div>
+    <form>
+      <div class="mg-1">
+        <label class="form-label">Descrição</label>
+        <input [(ngModel)]= "extrato.nomeCliente" type="text" class="form-control" name="descricao">
+      </div>
+
+      <div class="mb-1">
+        <label class="form-label">Valor</label>
+        <input [(ngModel)]= "extrato.valor" type="text" class="form-control" name="valor">
+      </div>
+
+      <div class="mb-1">
+        <label class="form-label">Saldo</label>
+        <input [(ngModel)]= "extrato.contaCorrente" type="text" class="form-control" name="saldo">
+      </div>
+
+      <div class="mb-3">
+        <button (click)="adicionar()" class="btn btn-primary">Adicionar</button>
+      </div>
+    </form>
+  </div>
+</div>

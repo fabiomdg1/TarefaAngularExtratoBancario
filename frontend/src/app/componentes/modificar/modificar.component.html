@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="row fundoExtrato">
+    <div class="row header">
+      <img class="logoImg" src="../../../assets/img/logo.gif"/>
+      <h2 class="alinhaTexto">Modificar Extrato Bancário</h2>
+  </div>
+    <div>
+      <form #f="ngForm">
+
+        <div class="mg-1">
+          <label class="form-label">Descrição</label>
+          <!-- <input [(ngModel)]="extrato.nomeCliente" type="text" class="form-control" name="nomeCliente"> -->
+          <input type="text" class="form-control" name="nomeCliente" [(ngModel)]="extrato.nomeCliente">
+        </div>
+
+        <div class="mb-1">
+          <label class="form-label">Valor</label>
+          <input [(ngModel)]="extrato.valor" type="text" class="form-control" name="valor">
+        </div>
+
+        <div class="mb-1">
+          <label class="form-label">Saldo</label>
+          <input [(ngModel)]="extrato.contaCorrente" type="text" class="form-control" name="contaCorrente">
+        </div>
+
+        <div class="mb-3">
+          <button (click)="modificar()" class="btn btn-primary" type="button">Salvar</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>
