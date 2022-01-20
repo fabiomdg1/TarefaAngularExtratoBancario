@@ -5,9 +5,8 @@
 
 ## SoulCode Challenge 💡
 
-Elaborar um simples modelo de extrato bancário, onde possa ser demonstrado o funcionamento de um CRUD trabalhando com Node.js e Angular.<strong>Soul Code</strong>, EDTECH brasileira com <i>inclusão social.</i>
+<p>Elaborar um simples modelo de extrato bancário, onde possa ser demonstrado o funcionamento de um CRUD trabalhando com Node.js e Angular.</p>
 
-- <a href="https://soulcodeacademy.org/">SoulCode</a>
 
 ## Techs 🛠
 
